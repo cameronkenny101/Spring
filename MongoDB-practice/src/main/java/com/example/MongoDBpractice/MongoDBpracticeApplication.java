@@ -19,7 +19,7 @@ public class MongoDBpracticeApplication implements CommandLineRunner {
 
         repository.deleteAll();
 
-        // save a couple of customers
+        // save two customers
         repository.save(new Customer("Alice", "Smith"));
         repository.save(new Customer("Bob", "Smith"));
 

@@ -23,6 +23,7 @@ public class MavenPracticeApplication {
 
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
+			// Printing all the beans proivded by Spring Boot
 			for (String beanName : beanNames) {
 				System.out.println(beanName);
 			}
